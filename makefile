@@ -1,5 +1,5 @@
 generate_readme:
-	@echo "Project: Guessing Game" > README.md
-	@echo `date` >> README.md
-	@echo `cat guessinggame.sh | wc -l` >> README.md
+	@echo "Project: Guessing Game \n" > README.md
+	@echo `date` "\n" >> README.md
+	@echo `cat guessinggame.sh | wc -l` "\n" >> README.md
 
